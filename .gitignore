@@ -1,0 +1,32 @@
+# Data files (never commit dataset - subject to CLEF eRisk usage agreement)
+*.csv
+*.json
+*.tsv
+*.xlsx
+data/
+datasets/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints / weights
+*.h5
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+models/*.pkl
+
+# Environment / secrets
+.env
+*.env
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
