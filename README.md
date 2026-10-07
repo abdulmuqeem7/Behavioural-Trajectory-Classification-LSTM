@@ -15,7 +15,7 @@ Three models were built and compared on the same dataset:
 |---|---|---|
 | Baseline 1 | TF-IDF + Logistic Regression | 47.38% |
 | Baseline 2 | MentalBERT (transformer, fine-tuned) | 47.77% |
-| **EVS-LSTM** (proposed) | Engineered behavioral features (EVS score, sentiment, keyword signals) fed as sequences through an LSTM | **58.56%** |
+| **EVS-LSTM** (proposed) | Engineered behavioral features (EVS score, sentiment, keyword signals) fed as sequences through an LSTM | **58%** |
 
 The two baselines analyse posts in isolation and land at near-identical performance, even with a domain-pretrained transformer. **EVS-LSTM** explicitly models temporal/behavioral progression across a user's post history, which produced a meaningful accuracy improvement, particularly for the harder "Escalating" and "Recovering" classes.
 
