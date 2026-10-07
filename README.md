@@ -21,12 +21,8 @@ The two baselines analyse posts in isolation and land at near-identical performa
 
 ### EVS-LSTM classification report
 
-```
-              precision    recall  f1-score   support
-  Escalating       0.65      0.61      0.63      8087
-  Recovering       0.66      0.67      0.67      8089
-      Stable       0.46      0.48      0.47      8300
-```
+<img width="578" height="212" alt="image" src="https://github.com/user-attachments/assets/d4c99bd7-2275-4b88-9575-db71b1409e51" />
+
 
 Model interpretability was also explored using SHAP to understand which engineered features drove predictions.
 
